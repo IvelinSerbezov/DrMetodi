@@ -1,0 +1,29 @@
+package zadachi;
+import java.util.Scanner;
+public class metodidr {
+	
+	public static double lice1(double a, double b, double h)
+	{double l1;
+	l1=((a+b)*h)/2;
+		return l1;
+	}
+	public static void lice2(double a, double b, double h)
+	{double l2;
+	l2=((a+b)*h)/2;
+	System.out.println("Lice2= "+ l2);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner inp =new Scanner(System.in);
+double o1=inp.nextDouble();
+double o2=inp.nextDouble();
+double vs=inp.nextDouble();
+System.out.println("Lice1= "+ lice1(o1,o2,vs));
+lice2(o1,o2,vs);
+		
+		
+		
+	}
+
+}
